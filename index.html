@@ -50,6 +50,11 @@
 			height: auto;
 		}
 
+		a:focus,
+		a:hover {
+			text-decoration: none;
+		}
+
 		.header {
 			padding-top: 50px;
 			padding-bottom: 50px;
@@ -113,22 +118,33 @@
 			padding-right: 15px
 		}
 
-		@media (max-width: 640px) {
+		@media (max-width: 960px) {
 			.contents-body {
 				width: 100%;
 			}
 		}
 
+		/*
+		@media (max-width: 640px) {
+			.contents-body {
+				width: 100%;
+			}
+		}
+		*/
+
 		.contents-body h2 {
 			font-size: 24px;
+			display: flex;
+			flex-direction: column;
 		}
 
 		.contents-body h2 .live-num {
 			margin-right: .5em;
+			margin-bottom: .25em;
 		}
 
 		.contents-body h2 .live-title {
-			font-size: 40px;
+			font-size: 32px;
 		}
 
 		.summary dl dd {
@@ -161,31 +177,29 @@
 		</header>
 		<main>
 			<div class="contents">
-				<div class="contents-image"><img src="assets/img/main-image.jpg" alt=""></div>
+				<div class="contents-image"><img src="./assets/img/main-image.jpg" alt=""></div>
 				<div class="contents-body">
 					<h2>
-						<span class="live-num">第1回 コントライヴ</span>
-						<span class="live-title">Living</span>
+						<span class="live-num">イベント出演予定</span>
+						<span class="live-title">御成座短編演劇フェスinおおだて『Fictions』</span>
 					</h2>
-					<h3>ーーやっと、流れ着いた</h3>
 
 					<div class="summary">
+						<p><a href="https://tohoku-actfes.jimdo.com/" target="_blank">Fictions webサイト</a></p>
 						<dl>
 							<dt>日時</dt>
-							<dd>2018年09月22日（土） 18:00開演（17:30開場）</dd>
+							<dd>2018年12月15日（土）18:00開演（17:30開場）<br>※第1日目18:45頃からの出演予定</dd>
 							<dt>会場</dt>
-							<dd><a href="http://www.cafebrugge.com/" target="_blank">カフェ・ブルージュ</a>（秋田市南通）<br>
-								<a href="https://goo.gl/maps/E8LpDdHGcp62" target="_blank">Google Maps</a>
+							<dd>
+								<a href="http://onariza.oodate.or.jp/" target="_blank">秋田県大館市「御成座」</a><br>
+								<a href="https://goo.gl/maps/XQnLrzjeZjm" target="_blank">Google Maps</a>
 							</dd>
-							<dt>予約</dt>
-							<dd><a href="https://goo.gl/forms/B9G6xOWskKoY95fz2" target="_blank">申込フォーム</a></dd>
-							<dt>お問い合わせ</dt>
-							<dd>email: <a href="m&#97;&#105;l&#116;o&#58;b&#111;&#116;&#116;l&#101;ke&#101;p&#115;&#64;gmail&#46;&#99;o&#109;">&#98;o&#116;tlek&#101;&#101;&#112;s&#64;gma&#105;&#108;&#46;&#99;&#111;m</a>
+							<dt>イベント予約・お問い合わせ</dt>
+							<dd><a href="https://tohoku-actfes.jimdo.com/" target="_blank">Fictions webサイト</a>（イベント実行委員会）</dd>
+							<dt>当団体に関するお問い合わせ</dt>
+							<dd>Email: <a href="m&#97;&#105;l&#116;o&#58;b&#111;&#116;&#116;l&#101;ke&#101;p&#115;&#64;gmail&#46;&#99;o&#109;">&#98;o&#116;tlek&#101;&#101;&#112;s&#64;gma&#105;&#108;&#46;&#99;&#111;m</a>
 							</dd>
-							<dt>入場料</dt>
-							<dd>2,000円（ワンドリンク付き）</dd>
 						</dl>
-						<p>※席数に限りがあるので事前予約をお願いいたします。</p>
 					</div>
 					<div class="footer">
 						<a href="https://twitter.com/bottlekeeps" target="_blank"><img src="./assets/img/icon-twitter.svg" alt="Twitter"></a>
